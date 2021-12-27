@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+    font: 'Poppins', sans-serif;
+}
+
+body {
+    /* background: linear-gradient(to right, #4e80ec, rgb(156, 215, 238)); */
+    background: url("../img/gtw.jpg");
+} 
+
+#app {
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #aeafb1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    width: 480px;
+    padding : 20px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    margin: 80px auto;
+    font-size: 16px;
+    background-color: #9eb7ee;
+}
+
+marquee {
+    font-family:'Playfair Display';
+}
+
+.input {
+    width: 420px;
+    height: 50px;
+    border-radius: 0px;
+    border: 1px solid black;
+    background-color: #b6c4df;
+    color: #025c77;
+    padding: 0 5px 0 5px;
+    margin: 0 0px 10px 0px;
+    font-size: 30px;
+}
+
+.input:focus,
+.input:active {
+    border-color: #05a2eb;
+    box-shadow: 0 0 4px #09acf8;
+    outline: none 0;
+}
+
+.button {
+    margin: 5px;
+    width: 63px;
+    border: 1px solid #0d0d0d;
+    height: 30px;
+    border-radius: 5px;
+    color: #d9d9d9;
+    background-color: #333333;
+    cursor: pointer;
+    outline: none;
+}
+
+.mode {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.equal-sign {
+    background-color: #3fa019;
+    width: 130px;
+}
+
+.toggle-button {
+    border: none;
+    background-color: #9eb7ee;
+    cursor: pointer;
+    outline: none;
+    font-size: 1rem;
+    color: #fff;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.35);
+}
+
+p {
+    margin-top: 0;
+}
+
+button::-moz-focus-inner {
+    border-color: transparent;
+}
+
+footer {
+    line-height:30px;
+    background: #5c6b8b;
+    color:#fff;
+    font-size: 13px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
